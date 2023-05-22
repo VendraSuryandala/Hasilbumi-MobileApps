@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgputih"
+    tools:context=".activity_produk">
+
+    <!-- Header -->
+    <TextView
+        android:id="@+id/textjudul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="HASIL BUMI"
+        android:textColor="#82AE46"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/background">
+    </ImageView>
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:gravity="center"
+        android:text="produk"
+        android:textAllCaps="true"
+        android:textColor="#fff"
+        android:textSize="16dp"
+        android:textStyle="bold"></TextView>
+    <!-- Header -->
+
+    <!-- Isi -->
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="70dp"
+        android:layout_height="85dp"
+        android:layout_below="@id/textjudul"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="170dp"
+        android:layout_marginTop="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="171dp"
+        android:paddingBottom="20dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="180dp"
+        android:layout_marginBottom="60dp" />
+    <!-- Isi -->
+
+
+    <!-- BottomNav -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:background="#82AE46">
+
+        <!-- BottomBack -->
+        <RelativeLayout
+            android:id="@+id/btnback"
+            android:layout_width="130dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/ic_back" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="30dp"
+                android:gravity="center_horizontal"
+                android:text="Back"
+                android:textAllCaps="true"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+
+        <!-- BottomHome -->
+        <RelativeLayout
+            android:id="@+id/btnhome"
+            android:layout_width="127dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="39dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/ic_home" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="30dp"
+                android:gravity="center_horizontal"
+                android:text="Home"
+                android:textAllCaps="true"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/btnkeranjang"
+            android:layout_width="141dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="42dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/ic_keranjang" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="30dp"
+                android:gravity="center_horizontal"
+                android:text="Keranjang"
+                android:textAllCaps="true"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

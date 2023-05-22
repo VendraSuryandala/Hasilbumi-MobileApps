@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_login">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#fff">
+
+        <ImageView
+            android:id="@+id/logomain"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:background="@drawable/daun" />
+
+        <TextView
+            android:id="@+id/textjudul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="110dp"
+            android:gravity="center"
+            android:text="HASIL BUMI"
+            android:textColor="#fff"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="260dp"
+            android:layout_below="@id/textjudul"
+            android:background="@drawable/background"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="30dp"
+                android:background="#614E50"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:src="@drawable/username" />
+
+                <EditText
+                    android:id="@+id/txUsername"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:background="#614E50"
+                    android:drawablePadding="10dp"
+                    android:hint="Username"
+                    android:paddingStart="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingEnd="0dp"
+                    android:paddingRight="0dp"
+                    android:textColor="#fff"
+                    android:textColorHint="#fff"
+                    android:textSize="13sp" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="30dp"
+                android:background="#614E50"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:src="@drawable/password" />
+
+                <EditText
+                    android:id="@+id/txPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:background="#614E50"
+                    android:hint="Password"
+                    android:inputType="textPassword"
+                    android:paddingStart="10dp"
+                    android:paddingLeft="10dp"
+                    android:textColor="#fff"
+                    android:textColorHint="#fff"
+                    android:textSize="13sp"
+                    tools:ignore="RtlSymmetry" />
+            </LinearLayout>
+
+            <CheckBox
+                android:id="@+id/showPass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/chekbok"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="10dp"
+                android:text="Show Password"
+                android:textColor="#fff" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="640dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/BtnLogin"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="30dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/background"
+                android:gravity="center"
+                android:text="Login"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                app:backgroundTint="#82AE46" />
+
+
+            <TextView
+                android:id="@+id/txt_register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="250dp"
+                android:layout_marginEnd="20dp"
+                android:layout_weight="1"
+                android:text="Create Account"
+                android:textColor="#000000" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KeranjangActivity">
+
+    <TextView
+        android:id="@+id/namaproduk"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="165dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Keranjang"
+        android:textColor="#82AE46"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="120dp"
+        android:src="@drawable/keranjang_menu" />
+
+    <TextView
+        android:id="@+id/user_id"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:text="1" />
+
+    <RelativeLayout
+        android:id="@+id/tabelcart"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/namaproduk"
+        android:layout_marginTop="20dp"
+        android:background="#82AE46">
+
+        <TextView
+            android:id="@+id/gambar"
+            android:layout_width="130dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="nama produk"
+            android:textAllCaps="true"
+            android:textColor="#fff"
+            android:textSize="10dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/nama"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_toEndOf="@+id/gambar"
+            android:layout_marginLeft="40dp"
+            android:gravity="center"
+            android:text="qty"
+            android:textAllCaps="true"
+            android:textColor="#fff"
+            android:textSize="10dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/qty"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_toEndOf="@+id/nama"
+            android:gravity="center"
+            android:layout_marginLeft="40dp"
+            android:text="satuan"
+            android:textAllCaps="true"
+            android:textColor="#fff"
+            android:textSize="10dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/total"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toEndOf="@+id/qty"
+            android:gravity="center"
+            android:text="Harga"
+            android:textAllCaps="true"
+            android:textColor="#fff"
+            android:textSize="10dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tabelcart"
+        android:layout_marginBottom="180dp" />
+
+    <TextView
+        android:id="@+id/txtotalharga"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="130dp"
+        android:text="Total Harga = Rp."
+        android:gravity="center"
+        android:textSize="20dp"
+        android:layout_marginLeft="40dp"/>
+    <TextView
+        android:id="@+id/totalharga"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="170dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="130dp"
+        android:text="harga"
+        android:gravity="center"
+        android:textSize="20dp"/>
+
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="70dp"
+        android:layout_height="85dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="170dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginEnd="171dp"
+        android:paddingBottom="20dp" />
+
+    <ImageView
+        android:id="@+id/btnkeranjang"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="80dp"
+        android:src="@drawable/background" />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="80dp"
+        android:gravity="center"
+        android:text="Checkout"
+        android:textAllCaps="true"
+        android:textColor="#fff"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+
+    <!-- BottomNav -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:background="#82AE46">
+
+        <!-- BottomBack -->
+        <RelativeLayout
+            android:id="@+id/btnback"
+            android:layout_width="130dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/ic_back" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="30dp"
+                android:gravity="center_horizontal"
+                android:text="Back"
+                android:textAllCaps="true"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+
+        <!-- BottomHome -->
+        <RelativeLayout
+            android:id="@+id/btnhome"
+            android:layout_width="127dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="39dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/ic_home" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="30dp"
+                android:gravity="center_horizontal"
+                android:text="Home"
+                android:textAllCaps="true"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/btnproduk"
+            android:layout_width="141dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="42dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/ic_keranjang" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="30dp"
+                android:gravity="center_horizontal"
+                android:text="Produk"
+                android:textAllCaps="true"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

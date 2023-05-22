@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:orientation="horizontal"
+    android:background="@drawable/bgwhite"
+    android:layout_margin="6dp"
+    tools:context=".data_pesanan">
+
+    <TextView
+        android:id="@+id/txuser_id"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/idorder"
+        android:layout_marginLeft="30dp"
+        android:gravity="center"
+        android:text="User id :"
+        android:textColor="#82ae69" />
+
+    <TextView
+        android:id="@+id/user_id"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/idorder"
+        android:layout_marginLeft="10dp"
+        android:layout_toEndOf="@+id/txuser_id"
+        android:gravity="center"
+        android:text="2"
+        android:textColor="#82ae69" />
+
+    <TextView
+        android:id="@+id/idorder"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:layout_marginLeft="30dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:text="1"
+        android:textAllCaps="true"
+        android:textColor="#82AE46"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txdate"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/user_id"
+        android:layout_marginLeft="30dp"
+        android:gravity="center"
+        android:text="Tanggal :"
+        android:textColor="#82ae69" />
+
+    <TextView
+        android:id="@+id/datetime"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/user_id"
+        android:layout_marginLeft="10dp"
+        android:layout_toEndOf="@+id/txdate"
+        android:gravity="center"
+        android:text="3"
+        android:textAllCaps="true"
+        android:textColor="#82AE46" />
+
+    <TextView
+        android:id="@+id/txharga"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/datetime"
+        android:layout_marginLeft="30dp"
+        android:gravity="center"
+        android:text="Total Harga :"
+        android:textColor="#82ae69" />
+
+    <TextView
+        android:id="@+id/total_harga"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/txdate"
+        android:layout_marginLeft="10dp"
+        android:layout_toEndOf="@+id/txharga"
+        android:gravity="center"
+        android:text="4"
+        android:textAllCaps="true"
+        android:textColor="#82AE46" />
+
+    <TextView
+        android:id="@+id/txkurir"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/total_harga"
+        android:layout_marginLeft="30dp"
+        android:gravity="center"
+        android:text="Kurir :"
+        android:textColor="#82ae69" />
+
+    <TextView
+        android:id="@+id/kurir"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/total_harga"
+        android:layout_marginLeft="10dp"
+        android:layout_toEndOf="@+id/txkurir"
+        android:gravity="center"
+        android:text="5"
+        android:textAllCaps="true"
+        android:textColor="#82AE46" />
+
+    <TextView
+        android:id="@+id/txlayanan"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/kurir"
+        android:layout_marginLeft="30dp"
+        android:gravity="center"
+        android:text="Layanan :"
+        android:textColor="#82ae69" />
+
+    <TextView
+        android:id="@+id/layanan"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/kurir"
+        android:layout_marginLeft="10dp"
+        android:layout_toEndOf="@+id/txlayanan"
+        android:gravity="center"
+        android:text="6"
+        android:textAllCaps="true"
+        android:textColor="#82AE46" />
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="140dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/kurir"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:gravity="center"
+        android:text="7"
+        android:textAllCaps="true"
+        android:textColor="#82AE46"
+        android:textSize="12dp" />
+
+</RelativeLayout>

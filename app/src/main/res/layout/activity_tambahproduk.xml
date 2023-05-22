@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_tambahproduk">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/background"
+        android:src="@drawable/ic_image" />
+
+    <TextView
+        android:id="@+id/judul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:text="Tambah produk"
+        android:textColor="#82ae46"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginTop="25dp"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"/>
+
+    <EditText
+        android:id="@+id/namaproduk"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/judul"
+        android:layout_centerHorizontal="true"
+        android:hint="Nama Produk"
+        android:textColorHint="#82ae46" />
+
+    <Button
+        android:id="@+id/buttonUpdate"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/progressBar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="70dp"
+        android:background="@drawable/background"
+        android:paddingTop="5dp"
+        android:text="Simpan"
+        android:textSize="16sp"
+        app:backgroundTint="#82AE46" />
+
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/namaproduk"
+        android:layout_marginTop="40dp"
+        />
+
+</RelativeLayout>

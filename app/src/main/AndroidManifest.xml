@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.hasilbumi">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_mainlogo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Hasilbumi"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="n">
+        <activity android:name=".data_pesanan"/>
+        <activity android:name=".activity_lihatbukti" />
+        <activity android:name=".activity_lihatpesanan" />
+        <activity android:name=".activity_buktibayar" />
+        <activity android:name=".activity_editprofile" />
+        <activity android:name=".activity_pesanan" />
+        <activity android:name=".activitydetailkeranjang" />
+        <activity android:name=".KeranjangActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".ActivityLanding" />
+        <activity android:name=".activitydetailproduk" />
+        <activity android:name=".data_produk" />
+        <activity android:name=".activity_tambahproduk" />
+        <activity android:name=".Activity_profile" />
+        <activity android:name=".activity_kategori" />
+        <activity android:name=".activity_register" />
+        <activity android:name=".activity_login" />
+        <activity android:name=".activity_produk" />
+        <activity
+            android:name=".splashscreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

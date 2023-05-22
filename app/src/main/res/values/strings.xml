@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">hasilbumi</string>
+
+    <string name="PREF_USERNAME">0000000000</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_back">Home</string>
+    <string name="title_home">Dashboard</string>
+    <string name="title_keranjang">Notifications</string>
+    <string name="title_activity_botnav">BotnavActivity</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+</resources>

@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_buktibayar">
+
+    <TextView
+        android:id="@+id/judul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Bukti bayar"
+        android:textAllCaps="true"
+        android:textColor="#82ae69"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/judul"
+        android:layout_marginTop="10dp"
+        android:background="@color/underline" />
+
+    <TextView
+        android:id="@+id/user_id"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:text="id" />
+
+    <TextView
+        android:id="@+id/order_id"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:text="id" />
+
+    <TextView
+        android:id="@+id/txsubjudul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/judul"
+        android:layout_marginTop="20dp"
+        android:text="Silahkan lakukan pembayaran ke rekening berikut :"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/txsubjudul1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txsubjudul"
+        android:layout_marginTop="10dp"
+        android:text="Pastikan anda mentransfer sesuai jumlah harga pesanan anda"
+        android:textSize="13dp" />
+
+    <TextView
+        android:id="@+id/txsubjudul2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txsubjudul1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:text="BRI"
+        android:textColor="#82ae69"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/txsubjudul3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txsubjudul2"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="HASIL BUMI"
+        android:textColor="#82ae69"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/txsubjudul4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txsubjudul3"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="00212-124912-124-24-124-1"
+        android:textColor="#82ae69"
+        android:textSize="20dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/txsubjudul4"
+        android:layout_marginTop="10dp"
+        android:background="@color/underline" />
+
+    <LinearLayout
+        android:id="@+id/rowjumlah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txsubjudul4"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/bg_green"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Jumlah pembayaran"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txtotalbyr"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_green"
+            android:gravity="center"
+            android:inputType="number"
+            android:textColor="#fff"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/rowketerangan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rowjumlah"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/bg_green"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Keterangan"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txketerangan"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_green"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txgambar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rowketerangan"
+        android:text="File bukti pembayaran anda"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"/>
+
+    <ImageView
+        android:id="@+id/gambar"
+        android:layout_width="500dp"
+        android:layout_height="200dp"
+        android:layout_below="@+id/txgambar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_plus" />
+
+
+
+    <ImageView
+        android:id="@+id/btnkirim"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/gambar"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/background" />
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/gambar"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Kirim bukti "
+        android:textAllCaps="true"
+        android:textColor="#fff"
+        android:textSize="11dp"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold" />
+
+
+    <!-- BottomNav -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:background="#82AE46">
+
+        <!-- BottomBack -->
+        <RelativeLayout
+            android:id="@+id/btnback"
+            android:layout_width="130dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/ic_back" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="30dp"
+                android:gravity="center_horizontal"
+                android:text="Back"
+                android:textAllCaps="true"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+
+        <!-- BottomHome -->
+        <RelativeLayout
+            android:id="@+id/btnhome"
+            android:layout_width="127dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="39dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/ic_home" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="30dp"
+                android:gravity="center_horizontal"
+                android:text="Home"
+                android:textAllCaps="true"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/btnkeranjang"
+            android:layout_width="141dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="42dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/ic_keranjang" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="30dp"
+                android:gravity="center_horizontal"
+                android:text="Keranjang"
+                android:textAllCaps="true"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

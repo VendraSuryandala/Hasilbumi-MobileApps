@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Kump. tugas Kuliah/Skripsi/Projek/hasilbumi/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.240625" />
+        <entry key="..\:/Kump. tugas Kuliah/Skripsi/Projek/hasilbumi/app/src/main/res/drawable-v24/ic_plus.xml" value="0.13425925925925927" />
+        <entry key="..\:/Kump. tugas Kuliah/Skripsi/Projek/hasilbumi/app/src/main/res/drawable/alamat.xml" value="0.240625" />
+        <entry key="..\:/Kump. tugas Kuliah/Skripsi/Projek/hasilbumi/app/src/main/res/drawable/background.xml" value="0.19814814814814816" />
+        <entry key="..\:/Kump. tugas Kuliah/Skripsi/Projek/hasilbumi/app/src/main/res/drawable/background2.xml" value="0.1935185185185185" />
+        <entry key="..\:/Kump. tugas Kuliah/Skripsi/Projek/hasilbumi/app/src/main/res/drawable/bg_green.xml" value="0.240625" />
+        <entry key="..\:/Kump. tugas Kuliah/Skripsi/Projek/hasilbumi/app/src/main/res/drawable/bgblue.xml" value="0.240625" />
+        <entry key="..\:/Kump. tugas Kuliah/Skripsi/Projek/hasilbumi/app/src/main/res/drawable/bgwhite.xml" value="0.19074074074074074" />
+        <entry key="..\:/Kump. tugas Kuliah/Skripsi/Projek/hasilbumi/app/src/main/res/drawable/botnav.xml" value="0.240625" />
+        <entry key="..\:/Kump. tugas Kuliah/Skripsi/Projek/hasilbumi/app/src/main/res/drawable/ic_back.xml" value="0.2265625" />
+        <entry key="..\:/Kump. tugas Kuliah/Skripsi/Projek/hasilbumi/app/src/main/res/drawable/ic_baseline_add_box.xml" value="0.23692307692307693" />
+        <entry key="..\:/Kump. tugas Kuliah/Skripsi/Projek/hasilbumi/app/src/main/res/drawable/ic_garis.xml" value="0.240625" />
+        <entry key="..\:/Kump. tugas Kuliah/Skripsi/Projek/hasilbumi/app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.240625" />
+        <entry key="..\:/Kump. tugas Kuliah/Skripsi/Projek/hasilbumi/app/src/main/res/drawable/ic_keranjang.xml" value="0.23697916666666666" />
+        <entry key="..\:/Kump. tugas Kuliah/Skripsi/Projek/hasilbumi/app/src/main/res/drawable/ic_launcher_background.xml" value="0.240625" />
+        <entry key="..\:/Kump. tugas Kuliah/Skripsi/Projek/hasilbumi/app/src/main/res/drawable/ic_logout.xml" value="0.240625" />
+        <entry key="..\:/Kump. tugas Kuliah/Skripsi/Projek/hasilbumi/app/src/main/res/drawable/ic_next.xml" value="0.240625" />
+        <entry key="..\:/Kump. tugas Kuliah/Skripsi/Projek/hasilbumi/app/src/main/res/drawable/ic_tambah_produk.xml" value="0.240625" />
+        <entry key="..\:/Kump. tugas Kuliah/Skripsi/Projek/hasilbumi/app/src/main/res/drawable/logo1_background.xml" value="0.240625" />
+        <entry key="..\:/Kump. tugas Kuliah/Skripsi/Projek/hasilbumi/app/src/main/res/drawable/phone.xml" value="0.240625" />
+        <entry key="..\:/Kump. tugas Kuliah/Skripsi/Projek/hasilbumi/app/src/main/res/drawable/plant.xml" value="0.240625" />
+        <entry key="..\:/Kump. tugas Kuliah/Skripsi/Projek/hasilbumi/app/src/main/res/drawable/produk.xml" value="0.240625" />
+        <entry key="..\:/Kump. tugas Kuliah/Skripsi/Projek/hasilbumi/app/src/main/res/drawable/round.xml" value="0.19814814814814816" />
+        <entry key="..\:/Kump. tugas Kuliah/Skripsi/Projek/hasilbumi/app/src/main/res/drawable/roundbrown.xml" value="0.240625" />
+        <entry key="..\:/Kump. tugas Kuliah/Skripsi/Projek/hasilbumi/app/src/main/res/drawable/username.xml" value="0.240625" />
+        <entry key="..\:/Kump. tugas Kuliah/Skripsi/Projek/hasilbumi/app/src/main/res/drawable/white.xml" value="0.19814814814814816" />
+        <entry key="..\:/Kump. tugas Kuliah/Skripsi/Projek/hasilbumi/app/src/main/res/layout/activity_botnav.xml" value="0.22447916666666667" />
+        <entry key="..\:/Kump. tugas Kuliah/Skripsi/Projek/hasilbumi/app/src/main/res/layout/activity_buktibayar.xml" value="0.25" />
+        <entry key="..\:/Kump. tugas Kuliah/Skripsi/Projek/hasilbumi/app/src/main/res/layout/activity_detailkeranjang.xml" value="0.25" />
+        <entry key="..\:/Kump. tugas Kuliah/Skripsi/Projek/hasilbumi/app/src/main/res/layout/activity_detailproduk.xml" value="0.25" />
+        <entry key="..\:/Kump. tugas Kuliah/Skripsi/Projek/hasilbumi/app/src/main/res/layout/activity_editprofile.xml" value="0.25" />
+        <entry key="..\:/Kump. tugas Kuliah/Skripsi/Projek/hasilbumi/app/src/main/res/layout/activity_isiproduk.xml" value="0.21041666666666667" />
+        <entry key="..\:/Kump. tugas Kuliah/Skripsi/Projek/hasilbumi/app/src/main/res/layout/activity_kategori.xml" value="0.25" />
+        <entry key="..\:/Kump. tugas Kuliah/Skripsi/Projek/hasilbumi/app/src/main/res/layout/activity_keranjang.xml" value="0.25" />
+        <entry key="..\:/Kump. tugas Kuliah/Skripsi/Projek/hasilbumi/app/src/main/res/layout/activity_landing.xml" value="0.25" />
+        <entry key="..\:/Kump. tugas Kuliah/Skripsi/Projek/hasilbumi/app/src/main/res/layout/activity_landingpemesanan.xml" value="0.22447916666666667" />
+        <entry key="..\:/Kump. tugas Kuliah/Skripsi/Projek/hasilbumi/app/src/main/res/layout/activity_lihatbukti.xml" value="0.22447916666666667" />
+        <entry key="..\:/Kump. tugas Kuliah/Skripsi/Projek/hasilbumi/app/src/main/res/layout/activity_lihatpesanan.xml" value="0.22447916666666667" />
+        <entry key="..\:/Kump. tugas Kuliah/Skripsi/Projek/hasilbumi/app/src/main/res/layout/activity_login.xml" value="0.22" />
+        <entry key="..\:/Kump. tugas Kuliah/Skripsi/Projek/hasilbumi/app/src/main/res/layout/activity_logokeranjang.xml" value="0.25" />
+        <entry key="..\:/Kump. tugas Kuliah/Skripsi/Projek/hasilbumi/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Kump. tugas Kuliah/Skripsi/Projek/hasilbumi/app/src/main/res/layout/activity_main2.xml" value="0.22447916666666667" />
+        <entry key="..\:/Kump. tugas Kuliah/Skripsi/Projek/hasilbumi/app/src/main/res/layout/activity_pesanan.xml" value="0.25" />
+        <entry key="..\:/Kump. tugas Kuliah/Skripsi/Projek/hasilbumi/app/src/main/res/layout/activity_produk.xml" value="0.27808988764044945" />
+        <entry key="..\:/Kump. tugas Kuliah/Skripsi/Projek/hasilbumi/app/src/main/res/layout/activity_profile.xml" value="0.25" />
+        <entry key="..\:/Kump. tugas Kuliah/Skripsi/Projek/hasilbumi/app/src/main/res/layout/activity_register.xml" value="0.25" />
+        <entry key="..\:/Kump. tugas Kuliah/Skripsi/Projek/hasilbumi/app/src/main/res/layout/activity_reset_password.xml" value="0.33" />
+        <entry key="..\:/Kump. tugas Kuliah/Skripsi/Projek/hasilbumi/app/src/main/res/layout/activity_splashscreen.xml" value="0.22083333333333333" />
+        <entry key="..\:/Kump. tugas Kuliah/Skripsi/Projek/hasilbumi/app/src/main/res/layout/activity_tambahproduk.xml" value="0.22447916666666667" />
+        <entry key="..\:/Kump. tugas Kuliah/Skripsi/Projek/hasilbumi/app/src/main/res/layout/activity_tentang.xml" value="0.25" />
+        <entry key="..\:/Kump. tugas Kuliah/Skripsi/Projek/hasilbumi/app/src/main/res/layout/activitydetailproduk.xml" value="0.21041666666666667" />
+        <entry key="..\:/Kump. tugas Kuliah/Skripsi/Projek/hasilbumi/app/src/main/res/layout/coba.xml" value="0.33" />
+        <entry key="..\:/Kump. tugas Kuliah/Skripsi/Projek/hasilbumi/app/src/main/res/layout/data_kategori.xml" value="0.22447916666666667" />
+        <entry key="..\:/Kump. tugas Kuliah/Skripsi/Projek/hasilbumi/app/src/main/res/layout/data_keranjang.xml" value="0.33" />
+        <entry key="..\:/Kump. tugas Kuliah/Skripsi/Projek/hasilbumi/app/src/main/res/layout/data_pesanan.xml" value="0.33" />
+        <entry key="..\:/Kump. tugas Kuliah/Skripsi/Projek/hasilbumi/app/src/main/res/layout/data_produk.xml" value="0.33" />
+        <entry key="..\:/Kump. tugas Kuliah/Skripsi/Projek/hasilbumi/app/src/main/res/layout/fragment_dashboard.xml" value="0.22447916666666667" />
+        <entry key="..\:/Kump. tugas Kuliah/Skripsi/Projek/hasilbumi/app/src/main/res/layout/fragment_home.xml" value="0.22447916666666667" />
+        <entry key="..\:/Kump. tugas Kuliah/Skripsi/Projek/hasilbumi/app/src/main/res/layout/list_kurir.xml" value="0.22447916666666667" />
+        <entry key="..\:/Kump. tugas Kuliah/Skripsi/Projek/hasilbumi/app/src/main/res/layout/web_buah.xml" value="0.22447916666666667" />
+        <entry key="..\:/Kump. tugas Kuliah/Skripsi/Projek/hasilbumi/app/src/main/res/layout/web_bumbu.xml" value="0.21041666666666667" />
+        <entry key="..\:/Kump. tugas Kuliah/Skripsi/Projek/hasilbumi/app/src/main/res/layout/web_produk.xml" value="0.22447916666666667" />
+        <entry key="..\:/Kump. tugas Kuliah/Skripsi/Projek/hasilbumi/app/src/main/res/layout/web_sayuran.xml" value="0.22447916666666667" />
+        <entry key="..\:/Kump. tugas Kuliah/Skripsi/Projek/hasilbumi/app/src/main/res/menu/bottom_nav_menu.xml" value="0.22447916666666667" />
+        <entry key="..\:/Kump. tugas Kuliah/Skripsi/Projek/hasilbumi/app/src/main/res/menu/menu.xml" value="0.22447916666666667" />
+        <entry key="..\:/Kump. tugas Kuliah/Skripsi/Projek/hasilbumi/app/src/main/res/menu/menu_bar.xml" value="0.22447916666666667" />
+        <entry key="..\:/Kump. tugas Kuliah/Skripsi/Projek/hasilbumi/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.240625" />
+        <entry key="..\:/Kump. tugas Kuliah/Skripsi/Projek/hasilbumi/app/src/main/res/mipmap-anydpi-v26/logo1.xml" value="0.128125" />
+        <entry key="..\:/Kump. tugas Kuliah/Skripsi/Projek/hasilbumi/app/src/main/res/xml/network_security_config.xml" value="0.22447916666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

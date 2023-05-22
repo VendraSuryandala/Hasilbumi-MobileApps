@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgputih"
+    tools:context=".activity_kategori">
+
+    <!-- Header -->
+    <TextView
+        android:id="@+id/textjudul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="HASIL BUMI"
+        android:textColor="#82AE46"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/background">
+    </ImageView>
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:gravity="center"
+        android:text="Kategori"
+        android:textAllCaps="true"
+        android:textColor="#fff"
+        android:textSize="16dp"
+        android:textStyle="bold">
+    </TextView>
+
+    <RelativeLayout
+        android:id="@+id/tambahbuah"
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="170dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/bgwhite"
+        tools:ignore="OnClick,UsingOnClickInXml">
+
+        <ImageButton
+            android:id="@+id/buah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bg01"></ImageButton>
+
+        <TextView
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="BUAH-BUAHAN"
+            android:textColor="#fff"
+            android:textSize="15dp"
+            android:textStyle="bold"></TextView>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/tambahsayur"
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="290dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        tools:ignore="OnClick,UsingOnClickInXml"
+        android:background="@drawable/bgwhite">
+
+        <ImageButton
+            android:id="@+id/sayur"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bg4"></ImageButton>
+
+        <TextView
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="35dp"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="SAYUR - SAYURAN"
+            android:textColor="#fff"
+            android:textSize="15dp"
+            android:textStyle="bold"></TextView>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:onClick="tambahbumbu"
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="410dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/bgwhite"
+        tools:ignore="OnClick">
+
+        <ImageButton
+            android:id="@+id/bumbu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bg3"></ImageButton>
+
+        <TextView
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="35dp"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:text="BUMBU DAPUR"
+            android:textColor="#fff"
+            android:textSize="15dp"
+            android:textStyle="bold"></TextView>
+    </RelativeLayout>
+
+    <!-- Footer -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="55dp">
+
+        <TextView
+            android:id="@+id/Copyright"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="Copyright © 2022 All right Reserved | Repost by hasilbumi.id "
+            android:textColor="#000000"
+            android:textSize="9dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <!-- BottomNav -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:background="#82AE46">
+
+        <!-- BottomBack -->
+        <RelativeLayout
+            android:id="@+id/btnback"
+            android:layout_width="130dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/ic_back" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="30dp"
+                android:gravity="center_horizontal"
+                android:text="Back"
+                android:textAllCaps="true"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+
+        <!-- BottomHome -->
+        <RelativeLayout
+            android:id="@+id/btnhome"
+            android:layout_width="127dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="39dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/ic_home" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="30dp"
+                android:gravity="center_horizontal"
+                android:text="Home"
+                android:textAllCaps="true"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/btnkeranjang"
+            android:layout_width="141dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="42dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/ic_keranjang" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="30dp"
+                android:gravity="center_horizontal"
+                android:text="Keranjang"
+                android:textAllCaps="true"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

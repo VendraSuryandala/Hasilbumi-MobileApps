@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_register">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:background="@drawable/daun" />
+
+        <TextView
+            android:id="@+id/textregis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:gravity="center"
+            android:text="HASIL BUMI"
+            android:textColor="#fff"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+
+        <LinearLayout
+            android:id="@+id/rowfullname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="330dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/bg_green"
+            android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:src="@drawable/fullname" />
+
+                <EditText
+                    android:id="@+id/txFullname"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_green"
+                    android:drawablePadding="10dp"
+                    android:hint="Nama Panjang"
+                    android:paddingStart="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingEnd="0dp"
+                    android:paddingRight="0dp"
+                    android:textColor="#fff"
+                    android:textColorHint="#000000"
+                    android:textSize="13sp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/rowphone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/bg_green"
+            android:layout_below="@+id/rowfullname"
+            android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:src="@drawable/phone" />
+
+                <EditText
+                    android:id="@+id/txNomor"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_green"
+                    android:drawablePadding="10dp"
+                    android:hint="Nomor Telepon"
+                    android:inputType="number"
+                    android:paddingStart="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingEnd="0dp"
+                    android:paddingRight="0dp"
+                    android:textColor="#fff"
+                    android:textColorHint="#000000"
+                    android:textSize="13sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/rowusername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/bg_green"
+            android:layout_below="@+id/rowphone"
+            android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:src="@drawable/username" />
+
+                <EditText
+                    android:id="@+id/txUsername"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_green"
+                    android:drawablePadding="10dp"
+                    android:hint="Nama"
+                    android:paddingStart="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingEnd="0dp"
+                    android:paddingRight="0dp"
+                    android:textColor="#fff"
+                    android:textColorHint="#000000"
+                    android:textSize="13sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/rowpass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/bg_green"
+            android:layout_below="@+id/rowusername"
+            android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:src="@drawable/password" />
+
+                <EditText
+                    android:id="@+id/txPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_green"
+                    android:drawablePadding="10dp"
+                    android:hint="Password"
+                    android:inputType="textPassword"
+                    android:paddingStart="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingEnd="0dp"
+                    android:paddingRight="0dp"
+                    android:textColor="#fff"
+                    android:textColorHint="#000000"
+                    android:textSize="13sp" />
+        </LinearLayout>
+
+
+        <CheckBox
+            android:id="@+id/showPass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rowpass"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="10dp"
+            android:text="Show Password"
+            android:textColor="#82ae69" />
+
+
+        <Button
+            android:id="@+id/btnRegis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/showPass"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="70dp"
+            android:background="@drawable/background"
+            android:text="Daftar"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            app:backgroundTint="#82AE46" />
+
+        <ProgressBar
+            android:id="@+id/progressBarRegister"
+            android:layout_width="111dp"
+            android:layout_height="80dp"
+            android:layout_below="@id/textregis"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="center"
+            android:layout_marginEnd="146dp"
+            android:padding="10dp" />
+
+
+</RelativeLayout>

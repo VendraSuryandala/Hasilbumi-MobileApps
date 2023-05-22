@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "98720336450",
+    "project_id": "hasilbumi-f42a6",
+    "storage_bucket": "hasilbumi-f42a6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:98720336450:android:abf8f051f01e30f371bbdb",
+        "android_client_info": {
+          "package_name": "com.example.hasilbumi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "98720336450-c9pu5kqr1k68ajg0ub61fgqks6vu9789.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJnPUbhNCg75ZjSIWfCPVrs4cFsHAw5hI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "98720336450-c9pu5kqr1k68ajg0ub61fgqks6vu9789.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_pesanan">
+
+    <TextView
+        android:id="@+id/user_id"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:text="id" />
+
+    <TextView
+        android:id="@+id/judul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="PEMESANAN"
+        android:textAllCaps="true"
+        android:textColor="#82ae69"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/judul"
+        android:layout_marginTop="10dp"
+        android:background="@color/underline" />
+
+    <TextView
+        android:id="@+id/txtotal"
+        android:layout_width="120dp"
+        android:layout_height="25dp"
+        android:layout_below="@id/namauser"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Total Harga:"
+        android:textColor="#82ae69"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/totalharga"
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/username"
+        android:layout_marginTop="10dp"
+        android:layout_toEndOf="@id/txtotal"
+        android:text="Total"
+        android:textColor="#000"
+        android:textSize="20dp" />
+
+
+    <TextView
+        android:id="@+id/namauser"
+        android:layout_width="80dp"
+        android:layout_height="25dp"
+        android:layout_below="@id/judul"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:text="Nama :"
+        android:textColor="#82ae69"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="180dp"
+        android:layout_height="25dp"
+        android:layout_below="@+id/judul"
+        android:layout_marginTop="20dp"
+        android:layout_toEndOf="@+id/namauser"
+        android:text="username"
+        android:textColor="#000"
+        android:textSize="20dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/txtotal"
+        android:layout_marginTop="20dp"
+        android:background="@color/underline"
+        android:textColor="#82ae69" />
+
+    <TextView
+        android:id="@+id/txsubjudul"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_below="@+id/judul"
+        android:layout_marginTop="110dp"
+        android:gravity="center"
+        android:text="Atur pengiriman pesan anda"
+        android:textColor="#000"
+        android:textSize="20dp" />
+
+    <LinearLayout
+        android:id="@+id/rowprov"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/bg_green"
+        android:layout_below="@id/txsubjudul"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:src="@drawable/provinsi" />
+
+        <EditText
+            android:id="@+id/txprov"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_green"
+            android:drawablePadding="10dp"
+            android:hint="Provinsi"
+            android:paddingStart="10dp"
+            android:paddingLeft="10dp"
+            android:paddingEnd="0dp"
+            android:paddingRight="0dp"
+            android:textColor="#fff"
+            android:textColorHint="#000000"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/rowkab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/bg_green"
+        android:layout_below="@+id/rowprov"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:src="@drawable/kabupaten" />
+
+        <EditText
+            android:id="@+id/txkab"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_green"
+            android:drawablePadding="10dp"
+            android:hint="Kabupaten"
+            android:paddingStart="10dp"
+            android:paddingLeft="10dp"
+            android:paddingEnd="0dp"
+            android:paddingRight="0dp"
+            android:textColor="#fff"
+            android:textColorHint="#000000"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/rowkec"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/bg_green"
+        android:layout_below="@+id/rowkab"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:src="@drawable/kecamatan" />
+
+        <EditText
+            android:id="@+id/txkec"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_green"
+            android:drawablePadding="10dp"
+            android:hint="Kecamatan"
+            android:paddingStart="10dp"
+            android:paddingLeft="10dp"
+            android:paddingEnd="0dp"
+            android:paddingRight="0dp"
+            android:textColor="#fff"
+            android:textColorHint="#000000"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/rowkodepos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/bg_green"
+        android:layout_below="@+id/rowkec"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:src="@drawable/kodepos" />
+
+        <EditText
+            android:id="@+id/txkodepos"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_green"
+            android:drawablePadding="10dp"
+            android:hint="Kode Pos"
+            android:paddingStart="10dp"
+            android:paddingLeft="10dp"
+            android:paddingEnd="0dp"
+            android:paddingRight="0dp"
+            android:textColor="#fff"
+            android:textColorHint="#000000"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/rowalamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/bg_green"
+        android:layout_below="@+id/rowkodepos"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:src="@drawable/alamat" />
+
+        <EditText
+            android:id="@+id/txaddress"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_green"
+            android:drawablePadding="10dp"
+            android:hint="Alamat lengkap"
+            android:paddingStart="10dp"
+            android:paddingLeft="10dp"
+            android:paddingEnd="0dp"
+            android:paddingRight="0dp"
+            android:textColor="#fff"
+            android:textColorHint="#000000"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+    <Spinner
+        android:id="@+id/rowkurir"
+        android:layout_width="155dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/rowalamat"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp" />
+
+    <TextView
+        android:id="@+id/kurir"
+        android:layout_width="120dp"
+        android:layout_height="20dp"
+        android:layout_below="@+id/rowalamat"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:gravity="center"
+        android:text="Pilih kurir"
+        android:textColor="#82ae69" />
+
+    <Spinner
+        android:id="@+id/rowlayanan"
+        android:layout_width="190dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/rowalamat"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_toEndOf="@+id/rowkurir" />
+
+    <TextView
+        android:id="@+id/layanan"
+        android:layout_width="160dp"
+        android:layout_height="20dp"
+        android:layout_below="@+id/rowalamat"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="70dp"
+        android:layout_toEndOf="@+id/rowkurir"
+        android:gravity="center"
+        android:text="Pilih Layanan"
+        android:textColor="#82ae69" />
+
+    <Button
+        android:id="@+id/btnpesanan"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/rowkurir"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/background"
+        android:text="Pesan produk"
+        android:textColor="@color/white"
+        app:backgroundTint="#82AE46" />
+
+    <EditText
+        android:id="@+id/txkurir"
+        android:layout_width="160dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="10dp"
+        android:layout_toEndOf="@+id/btnpesanan"
+        android:layout_below="@id/rowkurir"
+        android:gravity="center"
+        android:text="1"
+        android:textColor="#000" />
+
+
+    <!-- BottomNav -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:background="#82AE46">
+
+        <!-- BottomBack -->
+        <RelativeLayout
+            android:id="@+id/btnback"
+            android:layout_width="130dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/ic_back" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="30dp"
+                android:gravity="center_horizontal"
+                android:text="Back"
+                android:textAllCaps="true"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+
+        <!-- BottomHome -->
+        <RelativeLayout
+            android:id="@+id/btnhome"
+            android:layout_width="127dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="39dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/ic_home" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="30dp"
+                android:gravity="center_horizontal"
+                android:text="Home"
+                android:textAllCaps="true"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/btnkeranjang"
+            android:layout_width="141dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="42dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/ic_keranjang" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="30dp"
+                android:gravity="center_horizontal"
+                android:text="Keranjang"
+                android:textAllCaps="true"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
